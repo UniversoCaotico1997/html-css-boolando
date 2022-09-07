@@ -33,11 +33,12 @@
  }
 .row{
     display: flex;
+    margin: 2rem 0;
 }
  .col_1{
     width: calc(100% / 12 * 4);
     position: relative;
-    margin-right: 1rem;
+    margin-right: 1rem ;
  }
  img{
     max-width: 100%;
@@ -78,6 +79,18 @@
     left: 45px;
     font-size: small;
 }
+#only_marketing{
+    background-color: #008000;
+    color: white;
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    bottom: 90px;
+    left: 0px;
+    font-size: small;
+ }
 .brand{
     color: lightgray;
     font-size: 15px;
@@ -89,3 +102,20 @@
     color: grey;
     text-decoration: line-through;
  }
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90%;
+    width: 100%;
+    opacity: 0;
+    background-image: url(./img/1b.webp);
+    background-size: cover;
+
+}
+ .col_1:hover .overlay{
+    opacity: 1;
+ }
+
