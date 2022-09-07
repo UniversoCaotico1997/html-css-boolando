@@ -25,3 +25,67 @@
  }
 
  /* catalogo e-commerce */
+
+
+ .container{
+    width: 80%;
+    margin: auto;
+ }
+.row{
+    display: flex;
+}
+ .col_1{
+    width: calc(100% / 12 * 4);
+    position: relative;
+    margin-right: 1rem;
+ }
+ img{
+    max-width: 100%;
+ }
+ .like{
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;  
+ }
+
+ .discount{ 
+    color: white;
+    background-color: #FF0000;
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    bottom: 90px;
+    left: 0;
+    font-size: small;
+    text-align: center;
+    line-height: 20px;
+ }
+ .marketing{
+    background-color: #008000;
+    color: white;
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    bottom: 90px;
+    left: 45px;
+    font-size: small;
+}
+.brand{
+    color: lightgray;
+    font-size: 15px;
+}
+ .new_price{
+    color: #FF0000; 
+ }
+ .old_price{
+    color: grey;
+    text-decoration: line-through;
+ }
