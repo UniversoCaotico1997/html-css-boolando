@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+ 
+/* banner */
+.banner{
+    width: 100%;
+    height: 40px;
+    background-color: #FF6900 ;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.changes{
+    margin: 0.60rem;
+    font-size: small;
+}
+.site{
+    margin: 0.60rem;
+}
+ .gender>span{
+    margin-right: 1rem;
+ }
+
+ /* catalogo e-commerce */
