@@ -5,6 +5,8 @@
 }
  
 /* banner */
+
+
 .banner{
     height: 40px;
     background-color: #FF6900 ;
@@ -101,6 +103,9 @@
     color: grey;
     text-decoration: line-through;
  }
+
+/* change photo */
+
 .overlay{
     position: absolute;
     top: 0;
@@ -110,10 +115,32 @@
     height: 90%;
     width: 100%;
     opacity: 0;
+}
+.first_card{
     background-image: url(./img/1b.webp);
     background-size: cover;
-
 }
+.second_card{
+    background-image: url(./img/2b.webp);
+    background-size: cover;
+}
+.third_card{
+    background-image: url(./img/3b.webp);
+    background-size: cover;
+}
+.fourth_card{
+    background-image: url(./img/4b.webp);
+    background-size: cover;
+}
+.fifth_card{
+    background-image: url(./img/5b.webp);
+    background-size: cover;
+}
+.sixth_card{
+    background-image: url(./img/6b.webp);
+    background-size: cover;
+}
+
  .col_1:hover .overlay{
     opacity: 1;
  }
